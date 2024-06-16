@@ -1,9 +1,9 @@
 <template>
-    <Link :href="href" class="col-span-1 relative group overflow-hidden">
+    <Link :href="href" class="lg:col-span-1 col-span-3 lg:h-full h-60 relative group overflow-hidden">
         <img :src="src" :alt="alt" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition">
         <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/50 text-white">
-            <h3 class="font-oswald font-semibold text-4xl"><slot /></h3>
-            <h4 class="font-montserrat mt-1"><slot name="subtitle" /></h4>
+            <h3 class="font-oswald font-semibold text-center 2xl:text-4xl text-3xl"><slot /></h3>
+            <h4 class="font-exo text-center mt-1"><slot name="subtitle" /></h4>
             <Button size="sm" class="mt-4" @click.prevent="bookNow" :isLink="false">
                 Book Now
             </Button>

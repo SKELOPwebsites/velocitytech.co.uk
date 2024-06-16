@@ -1,18 +1,23 @@
 <template>
+    <Head>
+        <title>Contact the team</title>
+        <meta name="description" content="Test description">
+    </Head>
+
     <MainLayout>
-        <ShowcaseBanner img="/assets/images/contact-us/showcase.png">
+        <ShowcaseBanner img="/assets/images/showcase/contact-us.webp">
             Reach out to us
             <template #subtitle>Contact us by filling out the form below</template>
         </ShowcaseBanner>
 
-        <div class="container py-10 flex space-x-16">
+        <div class="container py-10 flex 2xl:space-x-16 xl:space-x-8 xl:flex-row flex-col">
             <div class="w-full">
                 <div class="bg-white shadow-xl shadow-stone-300 px-6 py-4 rounded-lg">
                     <template v-if="$page.props.success">
-                        <p class="uppercase font-medium tracking-wide">Message sent successfully</p>
+                        <p class="uppercase font-medium tracking-wide font-exo">Message sent successfully</p>
                         <p class="text-sm mt-2">Hold tight for our response soon!</p>
 
-                        <Link href="/" class="block bg-gray-200 w-fit px-4 py-1.5 border border-gray-300 text-gray-600 mt-4 rounded-md text-sm uppercase hover:text-gray-800 hover:border-gray-800 transition duration-150">Back to home</Link>
+                        <Link href="/" class="block bg-gray-200 w-fit px-4 py-1.5 border border-gray-300 text-gray-600 mt-4 rounded-md text-sm font-exo uppercase hover:text-gray-800 hover:border-gray-800 transition duration-150">Back to home</Link>
                     </template>
                     <template v-else>
                         <p class="text-sm text-gray-400 mb-4">Note: * fields are required</p>
@@ -21,7 +26,7 @@
                                 First Name <span class="text-red-500">*</span>
                             </label>
 
-                            <input v-model="form.first_name" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-25 w-full block mt-1" id="fname" autocomplete="given-name" type="text">
+                            <input v-model="form.first_name" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-500 focus:ring-opacity-25 w-full block mt-1" id="fname" autocomplete="given-name" type="text">
                             <span v-if="$page.props.errors.first_name" v-text="$page.props.errors.first_name" class="text-xs text-red-500"></span>
                         </div>
                         <div class="mb-4">
@@ -29,7 +34,7 @@
                                 Last Name <span class="text-red-500">*</span>
                             </label>
 
-                            <input v-model="form.last_name" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-25 w-full block mt-1" id="lname" autocomplete="family-name" type="text">
+                            <input v-model="form.last_name" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-500 focus:ring-opacity-25 w-full block mt-1" id="lname" autocomplete="family-name" type="text">
                             <span v-if="$page.props.errors.last_name" v-text="$page.props.errors.last_name" class="text-xs text-red-500"></span>
                         </div>
                         <div class="mb-4">
@@ -37,7 +42,7 @@
                                 E-mail Address <span class="text-red-500">*</span>
                             </label>
 
-                            <input v-model="form.email" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-25 w-full block mt-1" id="email" autocomplete="email" type="email">
+                            <input v-model="form.email" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-500 focus:ring-opacity-25 w-full block mt-1" id="email" autocomplete="email" type="email">
                             <span v-if="$page.props.errors.email" v-text="$page.props.errors.email" class="text-xs text-red-500"></span>
                         </div>
                         <div class="mb-4">
@@ -45,7 +50,7 @@
                                 Phone Number
                             </label>
 
-                            <input v-model="form.phone" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-25 w-full block mt-1" id="phone" type="text">
+                            <input v-model="form.phone" class="py-2 px-3 border outline-0 rounded shadow-sm border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-500 focus:ring-opacity-25 w-full block mt-1" id="phone" type="number">
                             <span v-if="$page.props.errors.phone" v-text="$page.props.errors.phone" class="text-xs text-red-500"></span>
                         </div>
                         <div class="mb-6">
@@ -53,29 +58,26 @@
                                 Comments <span class="text-red-500">*</span>
                             </label>
 
-                            <textarea v-model="form.comments" id="comments" class="w-full py-2 px-3 block mt-1 min-h-[6rem] rounded shadow-sm outline-0 border border-gray-300 focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-25"></textarea>
+                            <textarea v-model="form.comments" id="comments" class="w-full py-2 px-3 block mt-1 min-h-[6rem] rounded shadow-sm outline-0 border border-gray-300 focus:border-primary-300 focus:ring focus:ring-primary-500 focus:ring-opacity-25"></textarea>
                             <span v-if="$page.props.errors.comments" v-text="$page.props.errors.comments" class="text-xs text-red-500"></span>
                         </div>
 
                         <div class="flex items-center justify-end">
-                            <Button class="w-full" size="sm">
+                            <Button class="w-full" size="sm" @click="submit" :isLink="false">
                                 Send Inquiry
                             </Button>
                         </div>
                     </template>
                 </div>
             </div>
-            <div class="w-80 shrink-0 space-y-10">
-                <!--                Sidebar-->
-                <PageSidebar />
-            </div>
+            <PageSidebar />
         </div>
 
     </MainLayout>
 </template>
 
 <script setup>
-import { Link, useForm } from "@inertiajs/vue3"
+import { Link, useForm, Head } from "@inertiajs/vue3"
 import MainLayout from "../Layouts/MainLayout.vue"
 import ShowcaseBanner from "../Components/Main/ShowcaseBanner.vue"
 import Button from "../Components/Main/Button.vue"
@@ -97,9 +99,11 @@ function submit() {
     // form.post('/contact', {
     //     preserveScroll: true,
     // })
-    router.post('/contact', form, {
+    form.post('/contact', {
         preserveScroll: (page) => Object.keys(page.props.errors).length,
     });
+
+    console.log('hi')
 
 }
 

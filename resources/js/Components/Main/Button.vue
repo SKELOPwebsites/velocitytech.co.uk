@@ -1,7 +1,13 @@
 <template>
-    <component :is="componentType" :href="isLink ? href : null" :class="buttonClasses" @click="handleClick" v-bind="inertiaProps">
+    <component
+        :is="componentType"
+        :href="isLink ? href : null"
+        :class="buttonClasses"
+        @click="handleClick"
+        v-bind="inertiaProps"
+    >
         <slot name="icon"></slot>
-        <span class="font-montserrat font-medium"><slot /></span>
+        <span class="font-exo font-medium"><slot /></span>
     </component>
 </template>
 
@@ -33,34 +39,29 @@ const props = defineProps({
 
 const emit = defineEmits(['click']);
 
-const buttonClasses = computed(() => {
-    return [
-        'flex items-center justify-center relative px-6 py-3 w-fit overflow-hidden cursor-pointer hover:scale-105 transition ease-in-out',
-        props.theme === 'default' ? 'text-white bg-primary-500 hover:bg-primary-400' : props.theme === 'outline' ? 'text-primary-500 border border-primary-500 hover:bg-primary-400 hover:border-primary-400 hover:text-white' : 'text-white border border-white hover:bg-primary-400 hover:border-primary-400 hover:text-white',
-        props.size === 'sm' ? 'text-sm px-4 py-2' : props.size === 'lg' ? 'text-xl px-8 py-4' : 'text-lg px-6 py-3',
-    ].join(' ');
-});
+const baseClasses = 'flex items-center justify-center relative w-fit overflow-hidden cursor-pointer hover:scale-105 transition ease-in-out';
 
-// const iconClasses = computed(() => {
-//     return [
-//         'mr-2',
-//         props.size === 'sm' ? 'w-4 h-4' : props.size === 'lg' ? 'w-6 h-6' : 'w-5 h-5',
-//     ].join(' ');
-// });
+const themeClasses = {
+    default: 'text-white bg-primary-500 hover:bg-primary-400',
+    outline: 'text-primary-500 border border-primary-500 hover:bg-primary-400 hover:border-primary-400 hover:text-white',
+    'outline-white': 'text-white border border-white hover:bg-primary-400 hover:border-primary-400 hover:text-white',
+};
 
-const componentType = computed(() => {
-    if (props.isLink) {
-        return props.useInertia ? Link : 'a';
-    }
-    return 'button';
-});
+const sizeClasses = {
+    sm: 'text-sm px-3 py-2',
+    md: 'sm:text-lg px-6 py-3 text-base',
+    lg: 'sm:text-xl sm:px-8 sm:py-4 text-lg px-6 py-3',
+};
 
-const inertiaProps = computed(() => {
-    if (props.useInertia) {
-        return { href: props.href };
-    }
-    return {};
-});
+const buttonClasses = computed(() => [
+    baseClasses,
+    themeClasses[props.theme],
+    sizeClasses[props.size]
+].join(' '));
+
+const componentType = computed(() => props.isLink ? (props.useInertia ? Link : 'a') : 'button');
+
+const inertiaProps = computed(() => (props.useInertia ? { href: props.href } : {}));
 
 const handleClick = (event) => {
     if (!props.isLink) {

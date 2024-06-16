@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-20">
+    <div class="container lg:py-20 py-10">
         <h4 class="text-center font-oswald font-semibold text-2xl">Partnered With</h4>
         <hr class="border-t-2 w-32 mx-auto mt-4 border-primary-500">
 

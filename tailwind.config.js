@@ -32,7 +32,8 @@ export default {
             fontFamily: {
                 'poppins': ['Poppins', ...defaultTheme.fontFamily.sans],
                 'oswald': ['Oswald', ...defaultTheme.fontFamily.sans],
-                'montserrat': ['Montserrat', ...defaultTheme.fontFamily.sans]
+                'montserrat': ['Montserrat', ...defaultTheme.fontFamily.sans],
+                'exo': ['Exo', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: {

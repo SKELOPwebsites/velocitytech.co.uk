@@ -1,11 +1,11 @@
 <template>
 
     <div class="bg-stone-900">
-        <div class="container mx-auto py-16 flex justify-between items-center">
-            <div class="flex space-x-10">
-                <img class="w-40" src="/assets/images/logo.png" alt="">
+        <div class="container mx-auto lg:py-16 sm:py-8 py-4 flex justify-center items-center">
+            <div class="flex sm:space-x-10 sm:flex-row flex-col">
+                <img class="lg:size-40 size-28 sm:mb-0 mb-4" src="/assets/images/logo.webp" alt="">
 
-                <div class="flex flex-col justify-center space-y-2 text-white">
+                <div class="flex flex-col justify-center space-y-2 text-white lg:text-base text-sm">
                     <div class="font-medium font-oswald">
                         <a href="mailto:info@velocitytech.co.uk" class="flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4 mr-2">
@@ -40,20 +40,16 @@
                     </div>
                 </div>
             </div>
-
-            <div class="">
-                <div class="space-y-3 flex flex-col items-start text-stone-400">
-                    <a href="#">Privacy</a>
-                    <a href="#">Cookies</a>
-                </div>
-            </div>
         </div>
     </div>
     <div class="bg-stone-950">
-        <div class="container mx-auto flex items-center justify-between py-8">
-            <p class="text-sm text-gray-500">© {{ displayYear }} TyreTechs Mobile Tyres. All rights reserved.</p>
+        <div class="container mx-auto flex sm:flex-row flex-col-reverse items-center justify-between py-8">
+            <div class="flex items-center sm:text-sm text-xs text-gray-500 font-exo">
+                <p>© {{ displayYear }} Velocity Tech. All rights reserved.</p>
+                <Link href="/privacy" class="ml-2 underline">Privacy</Link>
+            </div>
 
-            <div class="flex flex-row space-x-6 items-center">
+            <div class="flex flex-row space-x-6 items-center sm:mb-0 mb-4">
                 <a href="https://www.facebook.com/" target="_blank" class="text-gray-500">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_27_2060)">
@@ -85,6 +81,7 @@
 
 <script setup>
 import { computed } from "vue"
+import { Link } from "@inertiajs/vue3"
 
 const launchYear = 2024
 const currentYear= new Date().getFullYear()

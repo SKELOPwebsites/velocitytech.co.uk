@@ -1,14 +1,19 @@
 <template>
+    <Head>
+        <title>#1 Auto Services Garage in Peterborough</title>
+        <meta name="description" content="Test description">
+    </Head>
+
     <MainLayout>
-        <ShowcaseBanner img="/assets/images/servicing/showcase.png">
+        <ShowcaseBanner img="/assets/images/showcase/servicing.webp">
             Full & Partial <br> Vehicle Servicing
             <template #subtitle>Comprehensive Care for Your Car</template>
         </ShowcaseBanner>
 
-        <div class="container py-10 flex space-x-16">
-            <div>
-                <div class="py-10 space-y-6">
-                    <div class="font-montserrat">
+        <div class="container py-10 flex 2xl:space-x-16 xl:space-x-8 xl:flex-row flex-col">
+            <div class="font-exo">
+                <div class="space-y-6">
+                    <div class="font-exo">
                         <h1 class="text-3xl font-bold text-secondary mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
                         <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
                     </div>
@@ -25,11 +30,18 @@
                         eget mattis ipsum massa eu ipsum. Nam ac dolor sed turpis gravida egestas.
                     </p>
                 </div>
-                <img src="/assets/images/servicing/oil-change.jpg" alt="Servicing oil change carried out" class="w-full h-96 object-cover object-top">
+                <img
+                    src="/assets/images/oil-change.webp"
+                    srcset="/assets/images/oil-change-300.webp 300w,
+                        /assets/images/oil-change-500.webp 500w,
+                        /assets/images/oil-change.webp 1920w"
+                    sizes="(max-width: 400px) 300px, (max-width: 600px) 500px, 1920px"
+                    alt="Servicing oil change carried out"
+                    class="w-full sm:h-96 h-60 mt-6 object-cover object-bottom object-top">
 
 
                 <div class="py-10 space-y-6">
-                    <div class="font-montserrat">
+                    <div class="font-exo">
                         <h1 class="text-3xl font-bold text-secondary mb-4">| In fermentum leo eros, eu dignissim ex placerat et. </h1>
                         <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
                     </div>
@@ -40,7 +52,7 @@
                         condimentum malesuada sapien aliquam. Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor.
                         Etiam ac auctor orci, eu aliquam velit.Suspendisse id posuere justo, a imperdiet lacus.
                     </p>
-                    <div class="flex space-x-6">
+                    <div class="flex lg:flex-row flex-col-reverse lg:space-x-6">
                         <div class="space-y-6">
                             <p>
                                 Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
@@ -61,21 +73,25 @@
                             </Button>
                         </div>
 
-                        <img class="w-96 h-80 object-cover" src="/assets/images/servicing/servicing.jpg" alt="Mechanics by a bonnet of a car">
+                        <img
+                            class="lg:w-96 w-full lg:h-80 sm:h-96 h-60 lg:mb-0 mb-6 object-cover"
+                            src="/assets/images/servicing.webp"
+                            srcset="/assets/images/servicing-300.webp 300w,
+                                    /assets/images/servicing-500.webp 500w,
+                                    /assets/images/servicing.webp 1920w"
+                            sizes="(max-width: 400px) 300px, 500px"
+                            alt="Mechanics by a bonnet of a car">
                     </div>
                 </div>
             </div>
-            <div class="w-80 shrink-0 space-y-10">
-                <!--                Sidebar-->
-                <PageSidebar />
-            </div>
+            <PageSidebar />
         </div>
 
     </MainLayout>
 </template>
 
 <script setup>
-import { Link } from "@inertiajs/vue3"
+import { Link, Head } from "@inertiajs/vue3"
 import MainLayout from "../Layouts/MainLayout.vue"
 import ShowcaseBanner from "../Components/Main/ShowcaseBanner.vue"
 import Button from "../Components/Main/Button.vue"

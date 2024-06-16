@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -27,5 +28,12 @@ Route::get('/about-us', function () {
     return Inertia::render('AboutUs');
 });
 Route::get('/contact', function () {
-    return Inertia::render('Contact');
+    return Inertia::render('Contact', [
+        'success' => session()->get('success')
+    ]);
+});
+Route::post('/contact', [ContactController::class, 'store']);
+
+Route::get('/privacy', function () {
+    return Inertia::render('Privacy');
 });
