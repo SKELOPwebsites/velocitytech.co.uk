@@ -1,6 +1,6 @@
 <template>
     <Head>
-        <title>#1 Auto Services Garage in Peterborough</title>
+        <title>#1 Bosch Car Service Garage in Peterborough</title>
         <meta name="description" content="Test description">
     </Head>
 
@@ -17,7 +17,7 @@
             >
 
             <div class="container z-20 relative 2xl:pt-44 sm:pt-24 pt-8 font-exo">
-                <h1 class="lg:text-5xl sm:text-3xl text-xl text-white font-extrabold leading-tight sm:text-left text-center">Your Trusted Auto Garage <br> in Peterborough</h1>
+                <h1 class="lg:text-5xl sm:text-3xl text-xl text-white font-extrabold leading-tight sm:text-left text-center">Your Trusted Bosch Car Service <br> Garage in Peterborough</h1>
                 <h2 class="text-white lg:text-2xl sm:text-xl text-lg lg:mt-8 sm:mt-4 mt-2 sm:text-left text-center">Same day service from just &pound;80</h2>
 
                 <div class="flex items-center sm:justify-start justify-center sm:mt-4 mt-12 space-x-4">

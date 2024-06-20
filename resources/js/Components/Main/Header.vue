@@ -17,12 +17,12 @@
                     </a>
                 </div>
                 <div class="flex sm:flex-row flex-col sm:items-center items-end sm:justify-end justify-center space-x-3 font-semibold font-oswald">
-                    <span>Mon-Sat: <span class="font-normal text-primary-500">8am - 5pm</span></span>
+                    <span>Mon-Sat: <span class="font-normal text-primary-500">8:30am - 5:30pm</span></span>
                     <span class="text-primary-500 sm:block hidden">|</span>
-                    <span>Sun: <span class="font-normal text-primary-500">10am - 4pm</span></span>
+                    <span>Sun: <span class="font-normal text-primary-500">11am - 3pm</span></span>
                 </div>
                 <div class="flex items-center justify-end font-semibold font-oswald">
-                    <Button @click="getDirections" :isLink="false" size="sm" theme="outline">
+                    <Button @click="getDirections" :isLink="false" size="sm" theme="outline" aria-label="Navbar toggle button">
                         <template #icon>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 mr-2">
                                 <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
@@ -38,11 +38,31 @@
         <div class="w-full bg-primary-500 border-t-4 border-primary-300">
             <div class="container xl:flex hidden items-center">
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/mobile-tyre-fitting">Mobile Tyre Fitting</NavLink>
-                <NavLink href="/tyres">Tyres</NavLink>
                 <NavLink href="/mot">MOT</NavLink>
                 <NavLink href="/servicing">Servicing</NavLink>
                 <NavLink href="/brakes">Brakes</NavLink>
+                <NavLink href="/clutches">Clutches</NavLink>
+                <NavLink href="/tyres">Tyres</NavLink>
+                <NavLink href="/batteries" class="2xl:block hidden">Batteries</NavLink>
+
+                <div class="relative" @mouseenter="showDropdown = true" @mouseleave="showDropdown = false">
+                    <NavLink href="#" class="flex items-center pointer-events-none">
+                        Other Services
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4 ml-2">
+                            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+                        </svg>
+                    </NavLink>
+
+                    <div v-show="showDropdown" class="absolute flex flex-col bg-primary-500 shadow-md z-50 w-60">
+                        <NavLink href="/batteries" class="2xl:hidden block">Batteries</NavLink>
+                        <NavLink href="/wheel-alignment">Wheel Alignment</NavLink>
+                        <NavLink href="/exhausts">Exhausts</NavLink>
+                        <NavLink href="/engine-diagnostics-scan">Engine Diagnostics</NavLink>
+                        <NavLink href="/mobile-tyre-fitting">Mobile Tyre Fitting</NavLink>
+                        <NavLink href="/recovery">Recovery</NavLink>
+                    </div>
+                </div>
+
                 <NavLink href="/about-us">About Us</NavLink>
                 <NavLink href="/contact">Contact</NavLink>
             </div>
@@ -72,14 +92,20 @@
                             </svg>
                             HOME
                         </NavLinkMob>
-                        <NavLinkMob href="/mobile-tyre-fitting" component="MobileTyreFitting" title="Mobile Tyre Fitting" class="border-b">Mobile Tyre Fitting</NavLinkMob>
-                        <NavLinkMob href="/tyres" component="Tyres" title="Tyres" class="border-b">Tyres</NavLinkMob>
                         <NavLinkMob href="/mot" component="MOT" title="MOT" class="border-b">MOT</NavLinkMob>
                         <NavLinkMob href="/servicing" component="Servicing" title="Servicing" class="border-b">Servicing</NavLinkMob>
                         <NavLinkMob href="/brakes" component="Brakes" title="Brakes" class="border-b">Brakes</NavLinkMob>
+                        <NavLinkMob href="/clutches" component="Clutches" title="Clutches" class="border-b">Clutches</NavLinkMob>
+                        <NavLinkMob href="/tyres" component="Tyres" title="Tyres" class="border-b">Tyres</NavLinkMob>
+                        <NavLinkMob href="/batteries" component="Batteries" title="Batteries" class="border-b">Batteries</NavLinkMob>
+                        <NavLinkMob href="/wheel-alignment" component="WheelAlignment" title="Wheel Alignment" class="border-b">Wheel Alignment</NavLinkMob>
+                        <NavLinkMob href="/exhausts" component="Exhausts" title="Exhausts" class="border-b">Exhausts</NavLinkMob>
+                        <NavLinkMob href="/engine-diagnostics-scan" component="EngineDiagnostics" title="Engine Diagnostics" class="border-b">Engine Diagnostics</NavLinkMob>
+                        <NavLinkMob href="/mobile-tyre-fitting" component="MobileTyreFitting" title="Mobile Tyre Fitting" class="border-b">Mobile Tyre Fitting</NavLinkMob>
+                        <NavLinkMob href="/recovery" component="Recovery" title="Recovery" class="border-b">Recovery</NavLinkMob>
                         <NavLinkMob href="/about-us" component="About Us" title="About Us" class="border-b">About Us</NavLinkMob>
 
-                        <NavLinkMob href="/contact-us" component="ContactUs" title="Contact Us" class="border-b"><a>Contact Us</a></NavLinkMob>
+                        <NavLinkMob href="/contact" component="Contact" title="Contact Us" class="border-b">Contact</NavLinkMob>
                     </div>
                 </div>
             </div>
@@ -105,6 +131,7 @@ function getDirections() {
     }
 }
 
+const showDropdown = ref(false);
 const otherServicesOpen = ref(false)
 const mobileNavShow = ref(false)
 const sliding = ref(false)

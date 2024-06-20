@@ -1,7 +1,7 @@
 <template>
     <Head>
         <title>Mobile Tyre Fitting in and around Peterborough</title>
-        <meta name="description" content="Test description">
+        <meta name="description" content="Enjoy the convenience of expert mobile tyre fitting at your location in Peterborough. Velocity Tech offers fast and professional tyre services.">
     </Head>
 
     <MainLayout>
@@ -14,20 +14,18 @@
             <div class="font-exo">
                 <div class="space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Expert Mobile Tyre Fitting Services in Peterborough</h1>
+                        <h2 class="text-xl font-semibold">Convenient and Professional Tyre Fitting at Your Location</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus, nisi quam varius est,
-                        at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit. Phasellus viverra massa enim, at ornare orci rutrum id.
-                        Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia, condimentum malesuada sapien aliquam.
-                        Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor. Etiam ac auctor orci, eu aliquam velit. Suspendisse id posuere justo,
-                        a imperdiet lacus.
+                        At Velocity Tech, we understand that your time is valuable. That's why we offer expert mobile tyre fitting services in and around Peterborough.
+                        Our skilled technicians come to you, whether you're at home, work, or stranded on the roadside, ensuring a hassle-free tyre fitting experience.
+                        We use state-of-the-art equipment to guarantee that your new tyres are fitted quickly and safely, so you can get back on the road with confidence.
                     </p>
                     <p>
-                        Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                        Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra. Etiam ultrices, turpis vitae feugiat porta, orci diam molestie ex,
-                        eget mattis ipsum massa eu ipsum. Nam ac dolor sed turpis gravida egestas.
+                        Mobile tyre fitting is the perfect solution for those with busy schedules or those who experience unexpected tyre issues.
+                        Our team is equipped to handle a variety of vehicles and tyre types, ensuring that you receive the best possible service.
+                        With competitive pricing and exceptional customer care, Velocity Tech is your go-to choice for mobile tyre fitting in Peterborough.
                     </p>
                 </div>
                 <img
@@ -43,25 +41,25 @@
 
                 <div class="py-10 space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">| In fermentum leo eros, eu dignissim ex placerat et. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Why Choose Velocity Tech for Mobile Tyre Fitting?</h1>
+                        <h2 class="text-xl font-semibold">Same-Day Service with High-Quality Tyres</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus,
-                        nisi quam varius est, at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit.
-                        Phasellus viverra massa enim, at ornare orci rutrum id. Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia,
-                        condimentum malesuada sapien aliquam. Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor.
-                        Etiam ac auctor orci, eu aliquam velit.Suspendisse id posuere justo, a imperdiet lacus.
+                        When you choose Velocity Tech for your mobile tyre fitting needs, you are choosing reliability, quality, and convenience.
+                        Our same-day service means that you won't have to wait long to have your tyres replaced or repaired.
+                        We stock a wide range of high-quality tyres from leading brands, ensuring that you get the best tyres suited to your vehicle and driving needs.
                     </p>
                     <div class="flex lg:flex-row flex-col-reverse lg:space-x-6">
                         <div class="space-y-6">
                             <p>
-                                Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                                Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra.
+                                Our mobile tyre fitting service is designed to provide you with peace of mind.
+                                Our technicians are trained to handle all aspects of tyre fitting, from balancing to alignment,
+                                ensuring your vehicle's performance and safety are maintained.
+                                Plus, with our transparent pricing and no hidden fees, you can trust that you're getting excellent value for your money.
                             </p>
                             <p>
-                                Etiam euismod elementum nisi, in imperdiet sapien bibendum et. Etiam vel neque mi. Etiam ex eros, tristique a tempus eu, feugiat nec magna.
-                                Integer elementum eros quis urna tincidunt, a tristique sem gravida.
+                                Velocity Tech is committed to providing exceptional automotive services to the Peterborough community.
+                                Contact us today to book your mobile tyre fitting service and experience the convenience and professionalism that sets us apart.
                             </p>
 
                             <Button href="tel:01733813128">

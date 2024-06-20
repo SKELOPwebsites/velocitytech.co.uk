@@ -12,9 +12,6 @@ Route::get('/', function () {
 Route::get('/mobile-tyre-fitting', function () {
     return Inertia::render('MobileTyreFitting');
 });
-Route::get('/tyres', function () {
-    return Inertia::render('Tyres');
-});
 Route::get('/mot', function () {
     return Inertia::render('MOT');
 });
@@ -24,6 +21,28 @@ Route::get('/servicing', function () {
 Route::get('/brakes', function () {
     return Inertia::render('Brakes');
 });
+Route::get('/clutches', function () {
+    return Inertia::render('Clutches');
+});
+Route::get('/tyres', function () {
+    return Inertia::render('Tyres');
+});
+Route::get('/batteries', function () {
+    return Inertia::render('Batteries');
+});
+Route::get('/wheel-alignment', function () {
+    return Inertia::render('WheelAlignment');
+});
+Route::get('/exhausts', function () {
+    return Inertia::render('Exhausts');
+});
+Route::get('/engine-diagnostics-scan', function () {
+    return Inertia::render('EngineDiagnostics');
+});
+Route::get('/recovery', function () {
+    return Inertia::render('Recovery');
+});
+
 Route::get('/about-us', function () {
     return Inertia::render('AboutUs');
 });

@@ -1,7 +1,7 @@
 <template>
     <Head>
-        <title>#1 Auto Services Garage in Peterborough</title>
-        <meta name="description" content="Test description">
+        <title>Comprehensive MOT Testing in Peterborough</title>
+        <meta name="description" content="Get reliable MOT testing for Class 4 and Class 7 vehicles in Peterborough. Velocity Tech ensures your vehicle meets all safety and environmental standards.">
     </Head>
 
     <MainLayout>
@@ -14,20 +14,20 @@
             <div class="font-exo">
                 <div class="space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Reliable MOT Testing Station in Peterborough</h1>
+                        <h2 class="text-xl font-semibold">Comprehensive and Trustworthy MOT Testing</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus, nisi quam varius est,
-                        at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit. Phasellus viverra massa enim, at ornare orci rutrum id.
-                        Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia, condimentum malesuada sapien aliquam.
-                        Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor. Etiam ac auctor orci, eu aliquam velit. Suspendisse id posuere justo,
-                        a imperdiet lacus.
+                        At Velocity Tech, we pride ourselves on being a trusted MOT testing station in Peterborough.
+                        Our fully certified and experienced technicians provide thorough MOT inspections to ensure your
+                        vehicle meets the required safety and environmental standards.
+                        Whether you're preparing for a routine check or need to address specific concerns, our team is here to help you every step of the way.
                     </p>
                     <p>
-                        Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                        Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra. Etiam ultrices, turpis vitae feugiat porta, orci diam molestie ex,
-                        eget mattis ipsum massa eu ipsum. Nam ac dolor sed turpis gravida egestas.
+                        Our MOT testing station is equipped with the latest diagnostic tools and equipment,
+                        ensuring that each test is conducted with precision and accuracy. We understand the importance of keeping your vehicle roadworthy and legal,
+                        which is why we offer a seamless and efficient MOT testing service.
+                        Book your MOT test with Velocity Tech today and drive with confidence knowing your vehicle is in safe hands.
                     </p>
                 </div>
                 <img
@@ -43,25 +43,25 @@
 
                 <div class="py-10 space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">| In fermentum leo eros, eu dignissim ex placerat et. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Expert MOT Testing for Class 4 & 7 Vehicles</h1>
+                        <h2 class="text-xl font-semibold">Ensuring Safety and Compliance for All Vehicle Types</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus,
-                        nisi quam varius est, at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit.
-                        Phasellus viverra massa enim, at ornare orci rutrum id. Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia,
-                        condimentum malesuada sapien aliquam. Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor.
-                        Etiam ac auctor orci, eu aliquam velit.Suspendisse id posuere justo, a imperdiet lacus.
+                        Velocity Tech specializes in MOT testing for both Class 4 and Class 7 vehicles.
+                        Whether you drive a car, van, or light commercial vehicle,
+                        our technicians have the expertise to conduct comprehensive MOT tests that meet all regulatory requirements.
+                        We provide detailed reports and honest feedback, ensuring that any necessary repairs or adjustments are clearly communicated and addressed promptly.
                     </p>
                     <div class="flex lg:flex-row flex-col-reverse lg:space-x-6">
                         <div class="space-y-6">
                             <p>
-                                Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                                Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra.
+                                Class 4 vehicles, including cars and small vans, and Class 7 vehicles, such as larger vans and commercial vehicles up to 3,500kg,
+                                are all catered to at our state-of-the-art facility. We are committed to maintaining high standards of service and customer satisfaction.
+                                Our competitive pricing and convenient scheduling options make Velocity Tech the top choice for MOT testing in Peterborough.
                             </p>
                             <p>
-                                Etiam euismod elementum nisi, in imperdiet sapien bibendum et. Etiam vel neque mi. Etiam ex eros, tristique a tempus eu, feugiat nec magna.
-                                Integer elementum eros quis urna tincidunt, a tristique sem gravida.
+                                Velocity Tech is dedicated to providing top-tier automotive services to the Peterborough community.
+                                Schedule your MOT test today and experience the professionalism and reliability that Velocity Tech is known for.
                             </p>
 
                             <Button href="tel:01733813128">

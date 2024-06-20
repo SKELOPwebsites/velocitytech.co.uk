@@ -1,7 +1,8 @@
 <template>
     <Head>
-        <title>Brake Pads & Disc Replacement</title>
-        <meta name="description" content="Test description">
+        <title>Expert Brake Services in Peterborough</title>
+        <meta name="description" content="Ensure your vehicle's safety with professional brake inspections and repairs in Peterborough. Trust Velocity Tech for reliable and precise brake services.">
+
     </Head>
 
     <MainLayout>
@@ -14,20 +15,19 @@
             <div class="font-exo">
                 <div class="space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Professional Brake Services in Peterborough</h1>
+                        <h2 class="text-xl font-semibold">Expert Brake Inspections and Replacements</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus, nisi quam varius est,
-                        at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit. Phasellus viverra massa enim, at ornare orci rutrum id.
-                        Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia, condimentum malesuada sapien aliquam.
-                        Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor. Etiam ac auctor orci, eu aliquam velit. Suspendisse id posuere justo,
-                        a imperdiet lacus.
+                        At Velocity Tech, your safety is our top priority. We offer professional brake services in Peterborough,
+                        ensuring that your vehicle's braking system is in perfect working condition.
+                        Our experienced technicians perform thorough brake inspections to identify any issues and provide precise repairs or replacements as needed.
+                        From brake pads and discs to calipers and fluid, we handle all aspects of your brake system with expertise and care.
                     </p>
                     <p>
-                        Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                        Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra. Etiam ultrices, turpis vitae feugiat porta, orci diam molestie ex,
-                        eget mattis ipsum massa eu ipsum. Nam ac dolor sed turpis gravida egestas.
+                        Regular brake inspections are crucial to maintaining the safety and performance of your vehicle.
+                        At Velocity Tech, we use the latest diagnostic tools and high-quality parts to ensure that your brakes function optimally.
+                        Don't compromise on safety—trust our team to keep your braking system in top condition.
                     </p>
                 </div>
                 <img
@@ -43,25 +43,25 @@
 
                 <div class="py-10 space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">| In fermentum leo eros, eu dignissim ex placerat et. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| High-Quality Brake Replacement and Maintenance</h1>
+                        <h2 class="text-xl font-semibold">Ensuring Maximum Safety and Performance</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus,
-                        nisi quam varius est, at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit.
-                        Phasellus viverra massa enim, at ornare orci rutrum id. Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia,
-                        condimentum malesuada sapien aliquam. Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor.
-                        Etiam ac auctor orci, eu aliquam velit.Suspendisse id posuere justo, a imperdiet lacus.
+                        Velocity Tech specializes in high-quality brake replacement and maintenance services.
+                        Over time, brake components can wear out, reducing their effectiveness and compromising your safety.
+                        Our technicians are skilled in identifying worn or damaged parts and providing timely replacements to restore your vehicle's braking performance.
                     </p>
                     <div class="flex lg:flex-row flex-col-reverse lg:space-x-6">
                         <div class="space-y-6">
                             <p>
-                                Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                                Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra.
+                                We offer a wide range of brake components from leading manufacturers, ensuring that you receive the best products for your vehicle.
+                                Our comprehensive brake maintenance services include fluid checks, rotor resurfacing, and system diagnostics,
+                                ensuring that every aspect of your braking system is thoroughly examined and maintained.
+                                With Velocity Tech, you can drive confidently, knowing your brakes are in expert hands.
                             </p>
                             <p>
-                                Etiam euismod elementum nisi, in imperdiet sapien bibendum et. Etiam vel neque mi. Etiam ex eros, tristique a tempus eu, feugiat nec magna.
-                                Integer elementum eros quis urna tincidunt, a tristique sem gravida.
+                                Velocity Tech is committed to providing top-tier automotive services to the Peterborough community.
+                                Schedule your brake service today and experience the professional care that sets us apart.
                             </p>
 
                             <Button href="tel:01733813128">

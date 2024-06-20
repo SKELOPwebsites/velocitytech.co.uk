@@ -1,7 +1,7 @@
 <template>
     <Head>
-        <title>#1 Auto Services Garage in Peterborough</title>
-        <meta name="description" content="Test description">
+        <title>Comprehensive Vehicle Servicing in Peterborough</title>
+        <meta name="description" content="Maintain your vehicle with reliable servicing and mechanical repairs in Peterborough. Velocity Tech provides expert care for all makes and models.">
     </Head>
 
     <MainLayout>
@@ -14,20 +14,18 @@
             <div class="font-exo">
                 <div class="space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Expert All Makes Servicing & Mechanical Repairs in Peterborough</h1>
+                        <h2 class="text-xl font-semibold">Comprehensive Maintenance and Repairs for All Vehicle Brands</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus, nisi quam varius est,
-                        at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit. Phasellus viverra massa enim, at ornare orci rutrum id.
-                        Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia, condimentum malesuada sapien aliquam.
-                        Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor. Etiam ac auctor orci, eu aliquam velit. Suspendisse id posuere justo,
-                        a imperdiet lacus.
+                        At Velocity Tech, we provide expert servicing and mechanical repairs for all makes and models of vehicles.
+                        Our highly skilled technicians are trained to handle a wide range of automotive issues, ensuring that your vehicle remains in optimal condition.
+                        From routine maintenance to complex mechanical repairs, we have the expertise and equipment to get the job done right.
                     </p>
                     <p>
-                        Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                        Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra. Etiam ultrices, turpis vitae feugiat porta, orci diam molestie ex,
-                        eget mattis ipsum massa eu ipsum. Nam ac dolor sed turpis gravida egestas.
+                        We understand that each vehicle has unique needs, which is why we offer personalized service plans tailored to your specific make and model.
+                        Our commitment to quality and customer satisfaction means that you can trust us to deliver reliable and efficient service every time.
+                        Whether you drive a domestic or foreign vehicle, Velocity Tech is your go-to destination for all makes servicing and mechanical repairs in Peterborough.
                     </p>
                 </div>
                 <img
@@ -42,25 +40,26 @@
 
                 <div class="py-10 space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">| In fermentum leo eros, eu dignissim ex placerat et. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Comprehensive Full Servicing Packages </h1>
+                        <h2 class="text-xl font-semibold">Complete Vehicle Inspections and Maintenance</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus,
-                        nisi quam varius est, at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit.
-                        Phasellus viverra massa enim, at ornare orci rutrum id. Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia,
-                        condimentum malesuada sapien aliquam. Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor.
-                        Etiam ac auctor orci, eu aliquam velit.Suspendisse id posuere justo, a imperdiet lacus.
+                        Velocity Tech offers comprehensive full servicing packages designed to keep your vehicle running smoothly and efficiently.
+                        Our full service includes a thorough inspection of all major components, fluid level checks, and replacements,
+                        as well as detailed maintenance tasks to ensure your vehicle's longevity and performance.
+                        We use high-quality parts and lubricants to guarantee the best results.
                     </p>
                     <div class="flex lg:flex-row flex-col-reverse lg:space-x-6">
                         <div class="space-y-6">
                             <p>
-                                Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                                Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra.
+                                Regular full servicing is essential to prevent potential issues and to maintain the safety and reliability of your vehicle.
+                                Our transparent service process includes a detailed report of our findings and any recommended actions,
+                                so you are always informed about the condition of your vehicle. With Velocity Tech's full servicing,
+                                you can drive with peace of mind knowing that your vehicle is well taken care of.
                             </p>
                             <p>
-                                Etiam euismod elementum nisi, in imperdiet sapien bibendum et. Etiam vel neque mi. Etiam ex eros, tristique a tempus eu, feugiat nec magna.
-                                Integer elementum eros quis urna tincidunt, a tristique sem gravida.
+                                Velocity Tech is dedicated to providing exceptional automotive services to the Peterborough community.
+                                Book your servicing appointment today and experience the professional care that sets us apart.
                             </p>
 
                             <Button href="tel:01733813128">

@@ -1,7 +1,7 @@
 <template>
     <Head>
-        <title>Long-lasting, performance tyres</title>
-        <meta name="description" content="Test description">
+        <title>Affordable Tyre Solutions in Peterborough</title>
+        <meta name="description" content="Find high-quality tyres at competitive prices in Peterborough. Velocity Tech offers reliable tyre fitting, balancing, and maintenance services.">
     </Head>
 
     <MainLayout>
@@ -14,20 +14,18 @@
             <div class="font-exo">
                 <div class="space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| Quality Tyres in Peterborough</h1>
+                        <h2 class="text-xl font-semibold">Affordable and Reliable Tyre Solutions</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus, nisi quam varius est,
-                        at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit. Phasellus viverra massa enim, at ornare orci rutrum id.
-                        Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia, condimentum malesuada sapien aliquam.
-                        Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor. Etiam ac auctor orci, eu aliquam velit. Suspendisse id posuere justo,
-                        a imperdiet lacus.
+                        At Velocity Tech, we offer a wide range of high-quality tyres that combine affordability, reliability, and performance.
+                        Whether you need tyres for your car, van, or SUV, we have the perfect options to suit your driving needs and budget.
+                        Our selection includes tyres from leading brands known for their durability and excellent performance, ensuring you get the best value for your money.
                     </p>
                     <p>
-                        Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                        Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra. Etiam ultrices, turpis vitae feugiat porta, orci diam molestie ex,
-                        eget mattis ipsum massa eu ipsum. Nam ac dolor sed turpis gravida egestas.
+                        We understand that choosing the right tyres is crucial for your vehicle's safety and efficiency.
+                        Our experienced team is here to help you select the ideal tyres that match your driving style and conditions.
+                        With our competitive pricing and expert advice, you can trust Velocity Tech to provide the best tyre solutions in Peterborough.
                     </p>
                 </div>
                 <img
@@ -43,25 +41,24 @@
 
                 <div class="py-10 space-y-6">
                     <div class="font-exo">
-                        <h1 class="text-3xl font-bold text-secondary mb-4">| In fermentum leo eros, eu dignissim ex placerat et. </h1>
-                        <h2 class="text-xl font-semibold">Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus</h2>
+                        <h1 class="text-3xl font-bold text-secondary mb-4">| High-Performance Tyres and Wheel Balancing</h1>
+                        <h2 class="text-xl font-semibold">Ensuring Superior Handling and Safety</h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis eleifend magna. Morbi lacinia, arcu id rutrum dapibus,
-                        nisi quam varius est, at vulputate ante velit a eros. Aenean a malesuada nibh. Aliquam a sem dapibus turpis sagittis hendrerit.
-                        Phasellus viverra massa enim, at ornare orci rutrum id. Curabitur vitae eleifend nulla, ut luctus tellus. Integer malesuada urna sit amet lorem lacinia,
-                        condimentum malesuada sapien aliquam. Nam a pulvinar neque, non blandit libero. Cras vehicula facilisis nisi et porttitor.
-                        Etiam ac auctor orci, eu aliquam velit.Suspendisse id posuere justo, a imperdiet lacus.
+                        Velocity Tech is committed to enhancing your driving experience with our range of high-performance tyres.
+                        Designed to offer superior handling, traction, and safety, our high-performance tyres are perfect for drivers who demand the best from their vehicles.
+                        Whether you need tyres for high-speed driving, off-road adventures, or everyday commuting, we have the right tyres to meet your needs.
                     </p>
                     <div class="flex lg:flex-row flex-col-reverse lg:space-x-6">
                         <div class="space-y-6">
                             <p>
-                                Duis gravida nulla sit amet augue elementum elementum. Ut eu ipsum id turpis rutrum dictum. Aliquam tortor felis, cursus at sem sed, sodales volutpat mauris.
-                                Quisque eu dolor blandit, congue odio non, porta nisi. Proin vulputate pretium nibh ac pharetra.
+                                In addition to providing top-quality tyres, we offer professional wheel balancing services to ensure your vehicle operates smoothly and safely.
+                                Proper wheel balancing is essential for maintaining even tyre wear, reducing vibration, and enhancing overall driving comfort.
+                                Our technicians use advanced equipment to balance your wheels accurately, prolonging the life of your tyres and improving your vehicle's performance.
                             </p>
                             <p>
-                                Etiam euismod elementum nisi, in imperdiet sapien bibendum et. Etiam vel neque mi. Etiam ex eros, tristique a tempus eu, feugiat nec magna.
-                                Integer elementum eros quis urna tincidunt, a tristique sem gravida.
+                                Velocity Tech is dedicated to providing exceptional automotive services to the Peterborough community.
+                                Contact us today to find the perfect tyres for your vehicle and experience our reliable and professional service.
                             </p>
 
                             <Button href="tel:01733813128">

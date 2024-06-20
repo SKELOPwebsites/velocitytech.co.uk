@@ -34,12 +34,11 @@
         <div class="mt-10">
             <h3 class="text-center font-oswald font-bold text-2xl">Other Services</h3>
 
-            <div class="flex items-center justify-center mt-10 space-x-2 text-xl text-primary-500 uppercase font-exo font-semibold">
-                <Link href="/brakes">Brakes</Link>
-                <span class="text-secondary text-2xl font-normal">|</span>
-                <Link href="/servicing">Servicing</Link>
-                <span class="text-secondary text-2xl font-normal">|</span>
-                <Link href="/tyres">Tyres</Link>
+            <div class="flex flex-wrap items-center justify-center mt-10 space-x-2 text-base text-primary-500 uppercase font-exo font-semibold">
+                <template v-for="(service, index) in otherServices">
+                    <Link :href="service.href">{{ service.name }}</Link>
+                    <span v-if="index < otherServices.length - 1" class="text-secondary text-2xl font-normal">|</span>
+                </template>
             </div>
         </div>
     </div>
@@ -48,6 +47,41 @@
 <script setup>
 import { Link } from "@inertiajs/vue3"
 import ServiceItem from "./ServiceItem.vue"
+
+const otherServices = [
+    {
+        name: 'Servicing',
+        href: '/servicing'
+    },
+    {
+        name: 'Clutches',
+        href: '/clutches'
+    },
+    {
+        name: 'Tyres',
+        href: '/tyres'
+    },
+    {
+        name: 'Batteries',
+        href: '/batteries'
+    },
+    {
+        name: 'Wheel Alignment',
+        href: '/wheel-alignment'
+    },
+    {
+        name: 'Exhausts',
+        href: '/exhausts'
+    },
+    {
+        name: 'Engine Diagnostics',
+        href: '/engine-diagnostics-scan'
+    },
+    {
+        name: 'Recovery',
+        href: '/recovery'
+    },
+]
 </script>
 
 <style scoped>
